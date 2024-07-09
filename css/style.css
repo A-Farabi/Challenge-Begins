@@ -63,3 +63,34 @@ body {
     text-align: center;
     padding: 10px;
 }
+.empty-space{
+    margin-top: 350px;
+}
+
+/* Default ---  */
+.center-text{
+    text-align: center;
+}
+.center-text h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.center-text p{
+    margin-top: 10px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+}
+/* Default ---  */
+.why-web-development-controller{
+    padding-top: 25px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
