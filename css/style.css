@@ -143,7 +143,9 @@ body {
 }
 
 /* my current target */
-.current-target-controller{
+.current-target-controller {
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,13 +153,15 @@ body {
     margin-top: 48px;
 }
 
-.current-target-card{
+.current-target-card {
     border-radius: 16px;
-background: rgba(255, 76, 30, 0.05);
+    background: rgba(255, 76, 30, 0.05);
 }
-.current-target-content{
+
+.current-target-content {
     padding: 15px;
 }
+
 .current-target-content h2 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -178,13 +182,67 @@ background: rgba(255, 76, 30, 0.05);
     text-align: left;
     margin: 10px 0px;
 }
-.current-target-content a{
+
+.current-target-content a {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/* need-support-section */
+.need-support-section {
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.need-support-section{
+    border-radius: 16px;
+background-color: rgba(0, 0, 0, 0.6);
+background-blend-mode: overlay;
+}
+.need-content{
+    padding: 60px 0px;
+}
+.need-content h2 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.need-content p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 40px 10px;
+}
+.support-foot{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.support-foot input{
+    padding: 15px 10px;
+    width: 30%;
+    border-radius: 10px;
+}
+.need-content button{
+    padding: 15px 25px;
+    border-radius: 10px;
 }
