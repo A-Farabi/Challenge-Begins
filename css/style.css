@@ -53,7 +53,7 @@ body {
     margin: 20px 0px;
 }
 
-.banner-button button{
+.banner-button button {
     background-color: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
     border-radius: 8px;
@@ -63,40 +63,45 @@ body {
     text-align: center;
     padding: 10px;
 }
-.empty-space{
-    margin-top: 350px;
+
+.empty-space {
+    margin-top: 70px;
 }
 
 /* Default ---  */
-.center-text{
+.center-text {
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
 }
-.center-text h1{
+
+.center-text h1 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
 }
-.center-text p{
+
+.center-text p {
     margin-top: 10px;
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
 }
+
 /* Default ---  */
-.why-web-development-controller{
+.why-web-development-controller {
     padding-top: 25px;
     width: 90%;
     margin: 0 auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
-.white-card-button button{
+
+.white-card-button button {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
@@ -104,31 +109,82 @@ letter-spacing: 0%;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
-    
+
 }
-.white-card-button{
+
+.white-card-button {
     padding: 12px 20px;
 }
 
-.white-card-controller{
+.white-card-controller {
     width: 80%;
     margin: 0 auto;
     margin-top: 50px;
 }
-.white-card-content{
+
+.white-card-content {
     padding: 35px;
     display: flex;
     justify-content: space-between;
     background-color: white;
     align-items: center;
 }
-.white-card-text p{
+
+.white-card-text p {
     margin: 15px 0px;
 }
-.video-section{
+
+.video-section {
     width: 90%;
     margin: 0 auto;
     margin-top: 50px;
     border: 1px solid rgba(13, 19, 33, 0.2);
-    border-radius: 16px;    
+    border-radius: 16px;
+}
+
+/* my current target */
+.current-target-controller{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin-top: 48px;
+}
+
+.current-target-card{
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.current-target-content{
+    padding: 15px;
+}
+.current-target-content h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.current-target-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px 0px;
+}
+.current-target-content a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
 }
