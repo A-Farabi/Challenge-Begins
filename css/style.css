@@ -70,6 +70,8 @@ body {
 /* Default ---  */
 .center-text{
     text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 .center-text h1{
     color: rgb(13, 19, 33);
@@ -93,4 +95,33 @@ letter-spacing: 0%;
     margin: 0 auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+}
+.white-card-button button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+.white-card-button{
+    padding: 12px 20px;
+}
+
+.white-card-controller{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.white-card-content{
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+.white-card-text p{
+    margin: 15px 0px;
 }
