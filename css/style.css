@@ -125,3 +125,10 @@ letter-spacing: 0%;
 .white-card-text p{
     margin: 15px 0px;
 }
+.video-section{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;    
+}
