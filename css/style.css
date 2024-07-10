@@ -39,6 +39,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .banner-text h1 {
