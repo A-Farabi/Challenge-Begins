@@ -10,13 +10,18 @@ body {
 }
 
 /* header design starts here */
+.header-button button{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
 .header-controller {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
     width: 90%;
     margin: 0 auto;
+    padding: 15px 0px;
 }
 
 /* banner starts here */
@@ -53,7 +58,7 @@ body {
     margin: 20px 0px;
 }
 
-.banner-button button {
+.banner-button button a{
     background-color: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
     border-radius: 8px;
